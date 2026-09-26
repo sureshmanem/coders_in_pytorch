@@ -1,0 +1,26 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Model weights and data (can be large)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+data/
+
+# Environment variables / secrets (e.g. HF_TOKEN)
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
